@@ -60,7 +60,8 @@ jobs:
           ANDROID_SDK_ROOT: /home/runner/android-sdk
           ANDROID_HOME: /home/runner/android-sdk
         run: |
-          buildozer android debug
+          buildozer android clean
+          buildozer -v android debug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
