@@ -9,8 +9,7 @@ source.include_exts = py,png,jpg,jpeg,kv,atlas
 
 version = 0.1
 
-requirements = python3,kivy==2.3.0,kivymd==1.1.1
-
+requirements = python3,kivy==2.2.1,kivymd==1.1.1
 orientation = portrait
 fullscreen = 0
 
@@ -19,9 +18,7 @@ android.api = 33
 android.minapi = 21
 android.ndk = 25b
 android.accept_sdk_license = True
-
-# icon.filename = data/icon.png
-# presplash.filename = data/presplash.png
+android.archs = arm64-v8a
 
 [buildozer]
 log_level = 2
